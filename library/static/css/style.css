@@ -1,0 +1,10 @@
+/* static/css/style.css */
+body { font-family: Arial, sans-serif; margin: 30px; color: #222; }
+.container { max-width: 900px; margin: 0 auto; }
+.book-form .row { display: flex; gap: 10px; margin-bottom: 10px; }
+.book-form input { flex: 1; padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+button { padding: 8px 12px; border: none; background: #1976d2; color: white; border-radius: 4px; cursor: pointer; }
+button#clear-btn { background: #666; margin-left: 6px; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background: #f2f2f2; }
