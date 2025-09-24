@@ -1,12 +1,3 @@
-
-
-
-
-
-
-
-
-
 // static/js/app.js
 const apiBase = "/api/books";
 
