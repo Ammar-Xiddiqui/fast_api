@@ -1,5 +1,7 @@
-from pymongo import MongoClient
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
-client = MongoClient("mongodb+srv://ammarsiddiqui377_db_user:lFH0yL3bqzL8cCWD@cluster0.w8kknck.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+uri = "mongodb+srv://ammarsiddiqui377_db_user:wBgNCdno1FGrZ0oS@cluster0.w8kknck.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+client=MongoClient(uri,server_api=ServerApi("1"))
 db=client.todo_db
-collection_name=db["todo_collection"]
+collection=db["todo_collection"]
