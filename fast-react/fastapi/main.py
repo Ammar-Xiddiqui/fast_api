@@ -56,4 +56,5 @@ async def create_transaction(transaction:TransactionBase , db:  db_dependency):
     db_transaction=models.Transaction(**transaction.dict())
     db.add(db_transaction)
     db.commit()
-    db.referesh(db_transaction)
+    db.refresh(db_transaction)
+    return db_transaction
