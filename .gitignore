@@ -1,0 +1,12 @@
+# Virtual environment folders
+myvenv/
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
