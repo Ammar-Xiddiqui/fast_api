@@ -1,12 +1,155 @@
-# Virtual environment folders
-myvenv/
-venv/
-env/
-ENV/
-.env/
-.venv/
+# ====================================
+# OS & Editor Files (Windows + Common)
+# ====================================
 
-# Python cache files
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS (in case repo touched on Mac too)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs & temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# ====================================
+# Python / FastAPI
+# ====================================
+
+# Byte-compiled / cache
 __pycache__/
 *.py[cod]
 *$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+ENV*/
+.venv/
+.ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+htmlcov/
+
+# Type checkers / linters
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Environment / secrets
+.env
+.env.local
+.env.*
+!.env.example  # keep env example template
+
+# SQLite / database
+*.sqlite3
+db.sqlite3
+
+# Certificates / keys
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+
+# ====================================
+# Node.js / React / Next.js
+# ====================================
+
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+.out/
+.next/
+.cache/
+.npm/
+.pnp.*
+.pnp.js
+
+# Environment files (frontend)
+.env.development
+.env.production
+.env.test
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Package managers (optional: keep lockfiles for stability)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Parcel / Vite / Bundlers
+.cache/
+.parcel-cache/
+vite-dist/
+
+# ====================================
+# Docker / Containers
+# ====================================
+docker-compose.override.yml
+docker-compose.local.yml
+*.pid
+*.sock
+
+# ====================================
+# Miscellaneous
+# ====================================
+*.db
+*.backup
+*.bak
+*.tmp
+*.old
+*.orig
+
+# ====================================
+# Coverage / reports / caches
+# ====================================
+coverage/
+reports/
+.cache/
