@@ -1,16 +1,15 @@
 import React from 'react'
 
-const Card = () => {
+const Card = (props) => {
   return (
-    <div>
-        <div className='card'>
-  <h1>hello bro </h1>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, aut.</p>
-</div>
+    <div className="Card">
+        <img src={props.image} alt="no picture" />
 
-
-
-    </div>
+    <h1>I am {props.name} and my age is {props.age}</h1>
+    <p>My moto is {props.moto}</p>
+    
+    <button>view me </button>
+  </div>
   )
 }
 
